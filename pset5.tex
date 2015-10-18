@@ -1,0 +1,166 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{nips14submit_e,times}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+%\documentstyle[nips14submit_09,times,art10]{article} % For LaTeX 2.09
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\def\eQb#1\eQe{\begin{eqnarray*}#1\end{eqnarray*}}
+\def\eQnb#1\eQne{\begin{eqnarray}#1\end{eqnarray}}
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\providecommand{\pb}[0]{\pagebreak}
+
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+
+\def\Qb#1\Qe{\begin{question}#1\end{question}}
+\def\Sb#1\Se{\begin{solution}#1\end{solution}}
+
+\newenvironment{claim}[1]{\par\noindent\underline{Claim:}\space#1}{}
+\newtheoremstyle{quest}{\topsep}{\topsep}{}{}{\bfseries}{}{ }{\thmname{#1}\thmnote{ #3}.}
+\theoremstyle{quest}
+\newtheorem*{definition}{Definition}
+\newtheorem*{theorem}{Theorem}
+\newtheorem*{lemma}{Lemma}
+\newtheorem*{question}{Question}
+\newtheorem*{preposition}{Preposition}
+\newtheorem*{exercise}{Exercise}
+\newtheorem*{challengeproblem}{Challenge Problem}
+\newtheorem*{solution}{Solution}
+\newtheorem*{remark}{Remark}
+\usepackage{verbatimbox}
+\usepackage{listings}
+\title{Human Genetics: \\
+Problem Set IV}
+
+
+\author{
+Youngduck Choi \\
+New York University\\
+\texttt{yc1104@nyu.edu} \\
+}
+
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\nipsfinalcopy % Uncomment for camera-ready version
+
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+This work contains the solutions to the problem set IV
+of Human Genetics 2015 course at New York University.
+\end{abstract}
+
+\bigskip
+
+\begin{question}[1. Hypothesis Testing I]
+\end{question}
+\begin{solution}
+\textbf{(a)} Under the null hypothesis of $3:1$ segregation, the expected counts of inflated
+and constricted pods are $1180 \cdot \dfrac{3}{4} = 885$ and $1180 \cdot \dfrac{3}{4} = 295$
+respectively.
+
+\smallskip
+
+\textbf{(b)} The chi-value for an observed data under a null hypothesis is defined by
+\eQb
+\chi^2 &=& \sum \dfrac{(O-E)^2}{E}.
+\eQe
+Substituting the given data yields
+\eQb
+\chi^2 &=& \dfrac{(881-885)^2}{885} + \dfrac{(299-295)^2}{295} \\
+&\approx& 0.0723. 
+\eQe
+Hence, the chi-square value for the observed data under the null hypothesis is
+approximately $0.0723$. 
+
+\smallskip
+
+\textbf{(c)} The degrees of freedom in this case is $1$. Using the given computational tool,
+we obtain that the $p-$value is approximately $0.788$. 
+
+\smallskip
+
+\textbf{(d)} Since the $p-$value is greater than $0.05$,
+we fail to reject the null hypothesis, which stated $3:1$ segregation. $\qed$ 
+
+\end{solution}
+
+\bigskip
+
+\begin{question}[2. Hypothesis Testing II]
+\end{question}
+\begin{solution}
+\textbf{(a)} $50:50$ is a good null hypothesis about the sex ratio of the newborns (girls: boys),
+because there is a cross between $XX$ and $XY$, which should be expected to go through
+uniform and independent segregation from each gender. By drawing the punnett square, with the
+uniform and independent segregation of $XX$ and $XY$ sex choromosomes, we see that 
+we should expect $50:50$ girls and boys.
+
+\smallskip
+
+\textbf{(b)} Under the null hypothesis, the exact probability that all $8$ children are girls 
+is $(\dfrac{1}{2})^8 = \dfrac{1}{256}$.
+
+\smallskip
+
+\textbf{(c)}
+We can compute the chi-value in this case to be $\dfrac{(0-4)^2}{4} + \dfrac{(8-4)^2}{4}$, which
+is $8$. As the degrees of freedom is $1$, the corresponding $p-$value is $0.00468$.
+With a $p-$value threshold of $0.05$, we reject the null hypothesis. We, however, 
+expect to reject the null hypothesis, even when it's 
+true, $0.00468\%$ of the time. Therefore, we cannot claim that the null hypothesis is wrong completely.
+$\qed$
+
+
+\end{solution}
+
+\pagebreak
+
+\begin{question}[3. Probability]
+\end{question}
+\begin{solution}
+\textbf{(a)} Since the dice is fair, the probability that we roll a 5 is $\dfrac{1}{6}$.
+
+\smallskip
+
+\textbf{(b)} First of all, if we roll two dices, there are in total $6^2$ different 
+outcomes with respect to the numbers we see. The cases that we see $11$ or greater for 
+the sum of two rolls are exactly $(5,6)$, $(6,5)$ and $(6,6)$, where the tuples denote
+the outcome of the two dices separately. Hence, the exact probability that the total
+number rolled will be $11$ or greater is $\dfrac{3}{36} = \dfrac{1}{12}$. 
+
+\smallskip
+
+\textbf{(c)} The event that we see the total number $10$ or lower is exactly the complement event
+of the one described in the part $(b)$. Hence, the exact probability that the total
+number rolled will be $10$ or lower is $1 - \dfrac{1}{12} = \dfrac{11}{12}$. $\qed$
+
+\end{solution}
+
+
+
+\end{document}
