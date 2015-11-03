@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 NOV 2015 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 NOV 2015 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,22 +540,22 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./pset7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `pset7.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
  10191 strings out of 493089
  151811 string characters out of 6134842
- 245626 words of memory out of 5000000
+ 246626 words of memory out of 5000000
  13531 multiletter control sequences out of 15000+600000
  13882 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -564,7 +564,7 @@ Here is how much of TeX's memory you used:
 exlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on pset7.pdf (1 page, 35248 bytes).
+Output written on pset7.pdf (1 page, 35385 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
