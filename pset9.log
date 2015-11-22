@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 NOV 2015 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 NOV 2015 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -567,23 +567,30 @@ Package pdftex.def Info: genetics-9-3.png used on input line 131.
 File: genetics-9-4.png Graphic file (type png)
 
 <use genetics-9-4.png>
-Package pdftex.def Info: genetics-9-4.png used on input line 143.
+Package pdftex.def Info: genetics-9-4.png used on input line 148.
 (pdftex.def)             Requested size: 397.48499pt x 66.35336pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
  [5 <./genetics-9-4.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
+<genetics-9-5.png, id=47, 568.1225pt x 442.65375pt>
+File: genetics-9-5.png Graphic file (type png)
+ <use genetics-9-5.png>
+Package pdftex.def Info: genetics-9-5.png used on input line 165.
+(pdftex.def)             Requested size: 397.48499pt x 309.71365pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+
+[6 <./genetics-9-5.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./pset9.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `pset9.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 10224 strings out of 493089
- 152351 string characters out of 6134842
+ 10231 strings out of 493089
+ 152472 string characters out of 6134842
  245625 words of memory out of 5000000
- 13551 multiletter control sequences out of 15000+600000
+ 13555 multiletter control sequences out of 15000+600000
  13882 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,39p,251b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -597,10 +604,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb>
-Output written on pset9.pdf (5 pages, 284603 bytes).
+Output written on pset9.pdf (6 pages, 344269 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
