@@ -1,1 +1,1 @@
-pdflatex pset9.tex && open pset9.pdf
+pdflatex genetics_pre.tex && open genetics_pre.pdf
