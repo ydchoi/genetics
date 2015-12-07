@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2015 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2015 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,23 +1148,35 @@ Package pdftex.def Info: edit-pigs.png used on input line 35.
 
 ] [4
 
-] [5
+] <crispr.jpg, id=54, 602.25pt x 167.12437pt>
+File: crispr.jpg Graphic file (type jpg)
 
-] [6
+<use crispr.jpg>
+Package pdftex.def Info: crispr.jpg used on input line 77.
+(pdftex.def)             Requested size: 307.28987pt x 85.27563pt.
+ [5
+
+ <./crispr.jpg>] [6
 
 ] [7
 
 ]
-<lifecycle.png, id=70, 655.44875pt x 461.725pt>
+<lifecycle.png, id=71, 655.44875pt x 461.725pt>
 File: lifecycle.png Graphic file (type png)
  <use lifecycle.png>
-Package pdftex.def Info: lifecycle.png used on input line 109.
+Package pdftex.def Info: lifecycle.png used on input line 112.
 (pdftex.def)             Requested size: 153.64493pt x 108.23062pt.
- [8
+
+Overfull \vbox (3.88383pt too high) detected at line 112
+ []
+
+[8
 
  <./lifecycle.png>] [9
 
 ] [10
+
+] [11
 
 ]
 \tf@nav=\write6
@@ -1176,11 +1188,11 @@ Package pdftex.def Info: lifecycle.png used on input line 109.
 \tf@snm=\write8
 \openout8 = `genetics_pre.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
  (./genetics_pre.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
 Package rerunfilecheck Info: File `genetics_pre.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1188,23 +1200,23 @@ Package rerunfilecheck Info: File `genetics_pre.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
  ) 
 Here is how much of TeX's memory you used:
- 18196 strings out of 493089
- 342479 string characters out of 6134842
+ 18206 strings out of 493089
+ 342587 string characters out of 6134842
  436336 words of memory out of 5000000
- 21252 multiletter control sequences out of 15000+600000
+ 21258 multiletter control sequences out of 15000+600000
  5143 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,57p,392b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on genetics_pre.pdf (10 pages, 3840210 bytes).
+Output written on genetics_pre.pdf (11 pages, 3858053 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
